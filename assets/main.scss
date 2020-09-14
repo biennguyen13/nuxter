@@ -1,0 +1,17 @@
+.blue {
+    color: blue;
+}
+.my-custom-active-link {
+    color: gray;
+}
+.my-custom-exact-active-link {
+  color: green;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
